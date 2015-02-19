@@ -12,9 +12,9 @@ public class NewTest {
   @Test
   public void Test() {
 	  browser.get("https://www.google.com");
-	String val=  browser.getCurrentUrl();
+	String value=  browser.getCurrentUrl();
 	browser.quit();
-	System.out.println(val);
+	System.out.println(value);
 	  
   }
   @BeforeMethod
